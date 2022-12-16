@@ -1,0 +1,172 @@
+body {
+    margin:auto;
+    width:1440px;
+    background-color:rgb(163, 182, 187);
+}
+/* Avatar 1 */
+#avatar {
+    width:80px;
+    height:80px;
+    border-radius:50px;
+    background-color:rgb(0, 0, 0);
+    text-align: center;
+    display:table-cell;
+    color:#FFF;
+}
+#avatar span {
+    font-size:30px;
+    position: relative;
+    top:20px;
+}
+#cornerCircle {
+    width:25px;
+    height:25px;
+    border-radius:50px;
+    background-color:rgba(103, 105, 105, 0.7);
+    text-align: center;
+    display:table-cell;
+    vertical-align: middle;
+    position: relative;
+    top:20px;
+    left:55px;
+}
+/* Avatar 2 */
+#avatar2 {
+    width:80px;
+    height:80px;
+    border-radius:50px;
+    background: url(img/BW.webp);
+    background-repeat:no-repeat;
+    background-position: center;
+    text-align: center;
+    display:table-cell;
+    color:#FFF;
+    margin-left:50px;
+}
+#cornerCircle2 {
+    background: url(img/check.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    width:25px;
+    height:25px;
+    border-radius:50px;
+    background-color:rgba(4, 133, 32, 0.9);
+    text-align: center;
+    display:table-cell;
+    vertical-align: middle;
+    position: relative;
+    top:55px;
+    left:55px;
+}
+/* Avatar 3 */
+.avatar3 {
+    width:80px;
+    height:80px;
+    border-radius:50px;
+    background-color:rgb(0, 0, 0);
+    text-align: center;
+    color:#FFF;
+    margin-right: -17px;
+    border:3px solid white;
+    font-size:30px;
+    line-height:80px;
+    float:left;
+}
+.avatar :last-of-type{
+    margin-right:0;
+}
+#avatar3small {
+    width:40px;
+    height:40px;
+    border-radius:50px;
+    background-color:rgb(0, 0, 0);
+    text-align: center;
+    color:#FFF;
+    margin-right: -17px;
+    border:3px solid white;
+    font-size:20px;
+    line-height:40px;
+    float:left;
+    margin-top:20px;
+}
+
+/* Badge */
+
+#badge1 {
+    width:60px;
+    height:40px;
+    border-radius:50px;
+    background-color:rgb(0, 0, 0);
+    text-align: center;
+    color:#FFF;
+    font-size:26px;
+    line-height:40px;
+    margin-bottom:10px;
+}
+#badge2 {
+    width:60px;
+    height:40px;
+    border-radius:50px;
+    border:1px solid rgb(101, 143, 101);
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size:26px;
+    line-height:40px;
+    margin-bottom:10px;
+}
+#badge3 {
+    background: url(img/check.png);
+    background-size: 25px;
+    background-repeat:no-repeat;
+    background-position: center;
+    width:40px;
+    height:40px;
+    border-radius:50px;
+    background-color:rgba(0, 0, 0, 0.9);
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom:10px;
+}
+#badge4 {
+    width:40px;
+    height:40px;
+    border-radius:50px;
+    background-color:rgba(255, 255, 255, 0.9);
+    border: 1px solid gray;
+    text-align: center;
+    line-height:40px;
+    font-size:25px;
+    color: black;
+    margin-bottom:10px;
+}
+
+/* Breadcrumbs */
+
+.breadcrumb {
+    font-size:30px;
+}
+.breadcrumb span{
+    font-size:40px;
+    font-weight:700;
+}
+.breadcrumb img, .breadcrumb2 img{
+    margin-left:10px;
+    margin-right:10px;
+}
+.breadcrumb2 img:first-of-type{
+    margin-left:0px;
+    margin-right:10px;
+}
+.breadcrumb2 span{
+    display: inline-block;
+    font-size:20px;
+    vertical-align: middle;
+}
+.breadcrumb2 img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Button */
+

@@ -170,3 +170,49 @@ body {
 
 /* Button */
 
+#button1 {
+    width: 116px;
+    height:40px;
+    border:none;
+    background: black;
+}
+#button1 img {
+    display:inline-block;
+    vertical-align: middle;
+}
+#button1 span {
+    display:inline-block;
+    vertical-align: middle;
+    padding: 0 8px 0 8px;
+    font-size: 16px;
+    color: white;
+}
+#button2 {
+    width: 116px;
+    height:40px;
+    border:none;
+}
+#button2 img {
+    display:inline-block;
+    vertical-align: middle;
+}
+#button2 span {
+    display:inline-block;
+    vertical-align: middle;
+    padding: 0 8px 0 8px;
+    font-size: 16px;
+}
+#button3 {
+    width: 64px;
+    height:64px;
+    border: 1px solid black;
+    background: black;
+}
+#button4 {
+    width: 64px;
+    height:64px;
+    border: 1px solid black;
+}
+
+/* Checkbox */
+

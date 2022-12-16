@@ -216,3 +216,228 @@ body {
 
 /* Checkbox */
 
+.checkbox1 {
+    display:inline-block;
+    font-size:16px;
+    line-height:16px;
+}
+.label2 {
+    font-size: 12px;
+    color: #777777;
+    margin-left:20px;
+}
+.cbGray {
+    color:#777777;
+}
+
+/* Chip */
+
+.chip {
+    width: 116px;
+    height:36px;
+    border-radius: 50px;
+    background-color:black;
+    color: white;
+    margin-bottom:5px;
+}
+.chipLeft {
+    float:left;
+    width:28px;
+    height:28px;
+    background-color:#777777;
+    border-radius:50px;
+    margin-top: 4px;
+    margin-left: 6px;
+    text-align: center;
+    line-height:28px;
+    font-size: 12px;
+}
+.chipRight {
+    float:right;
+    width:28px;
+    height:28px;
+    border-radius:50px;
+    margin-top: 4px;
+    margin-right: 6px;
+    text-align: center;
+    line-height:28px;
+    background: url(img/x.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 8px 8px;
+    background-color:#777777;
+}
+.chipMid{
+    text-align: center;
+    float:left;
+    line-height:36px;
+    width: 48px;
+}
+
+.chip2 {
+    width: 116px;
+    height:36px;
+    border-radius: 50px;
+    background-color:white;
+    color: black;
+    margin-bottom:5px;
+}
+.chipLeft2 {
+    float:left;
+    width:28px;
+    height:28px;
+    background-color:black;
+    border-radius:50px;
+    margin-top: 4px;
+    margin-left: 6px;
+    text-align: center;
+    line-height:28px;
+    font-size: 12px;
+    color:white;
+}
+.chipRight2 {
+    float:right;
+    width:28px;
+    height:28px;
+    border-radius:50px;
+    margin-top: 4px;
+    margin-right: 6px;
+    text-align: center;
+    line-height:28px;
+    background: url(img/x.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 8px 8px;
+    background-color:black;
+}
+.chipMid2 {
+    text-align: center;
+    float:left;
+    line-height:36px;
+    width: 48px;
+}
+
+/* Divider */
+/*other method
+#divider h1 {
+    overflow: hidden;
+    text-align: center;
+}
+#divider h1:before,
+#divider h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+#divider h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+#divider h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+*/
+#divider1 {
+    width:283px;
+    height:12px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom:20px;
+}
+#divider1 span{
+    font-size: 20px;
+    background-color: rgb(163, 182, 187);
+    padding: 0 5px;
+}
+
+#divider2 {
+    width:283px;
+    height:12px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    text-align: left;
+    margin-bottom:20px;
+}
+#divider2 span{
+    font-size: 20px;
+    background-color: rgb(163, 182, 187);
+    padding: 0 5px;
+}
+
+#divider3 {
+    width:283px;
+    height:12px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom:20px;
+}
+#dividerImg{
+    display: inline-block;
+    justify-content: center;
+}
+#divider3 img{
+    padding: 0 5px;
+    background-color: rgb(163, 182, 187);
+    padding-top: 6px;
+}
+
+#divider4 {
+    width:283px;
+    height:12px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    margin-bottom:20px;
+    text-align: center;
+}
+#divider4element {
+    display: inline-block;
+    text-align: center;
+    width:20px;
+    height:14px;
+    border-radius:50px;
+    background-color:rgb(0, 0, 0);
+    color:#FFF;
+    font-size:12px;
+}
+#divider4 span{
+    vertical-align: middle;
+    padding: 0 5px;
+    background-color: rgb(163, 182, 187);
+}
+
+#divider5 {
+    width:283px;
+    height:12px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    margin-bottom:10px;
+    text-align: center;
+}
+#divider5element {
+    display: inline-block;
+    text-align: center;
+    width:60px;
+    height:24px;
+    border-radius:50px;
+    background-color:rgb(0, 0, 0);
+    color:#FFF;
+    font-size:12px;
+}
+#divider5 span{
+    line-height:24px;
+    vertical-align: middle;
+    padding: 0 5px;
+    background-color: rgb(163, 182, 187);
+}
+#divider6 {
+    display: inline-block;
+    text-align: left;
+    height:200px;
+    border-right: 1px solid rgb(0, 0, 0, 0.2);
+    right:0;
+}
+
+/* */
+

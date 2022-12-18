@@ -603,3 +603,61 @@ form {
 
 /* Pagination*/
 
+#pagination {
+    width:300px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    margin-bottom:10px;
+}
+
+.paginationBox{
+    width:40px;
+    height:40px;
+    float:left;
+}
+.paginationBox:first-of-type, .paginationBox:last-of-type{
+    background: white;
+}
+.paginationBox:nth-of-type(2){
+    background: black;
+    color:white;
+}
+
+#pagination2 {
+    width:300px;
+    height:42px;
+    text-align:center;
+    line-height:40px;
+    opacity: 0.3;
+}
+.paginationBox2{
+    width:40px;
+    height:40px;
+    float:left;
+}
+
+/* Radio*/
+
+#radio span{
+    padding-left:25px;
+    opacity: 0.5;
+    padding-right:0;
+}
+#radio2 {
+    accent-color: red;
+}
+#radioRow div{
+    float:left;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+hr, h1{
+    clear:left;
+}
+#radio input:nth-of-type(4), #radio label:nth-of-type(4), #radio span:nth-of-type(4) {
+    opacity:0.1;
+}
+
+/* Tabs*/
+

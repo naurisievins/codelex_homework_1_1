@@ -439,5 +439,167 @@ body {
     right:0;
 }
 
-/* */
+/* Input*/
+.box {
+    width: 200px;
+}
+
+#input1 {
+    background: white;
+    background-image: url(img/env.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 10px;
+    background-size: 18px;
+    padding-left: 35px;
+    height:20px;
+    border: 1px solid black;
+    width:111px;
+}
+
+.inputSpan{
+    float:right;
+    padding-right: 50px;
+}
+
+#input2 {
+    height:20px;
+    border: 1px solid black;
+    width:89px;
+    padding-right:54px;
+    padding-left:5px;
+}
+#input2img {
+    width:38px;
+    margin-left:-53px;
+    margin-bottom: -4px;
+}
+
+#input3 {
+    height:60px;
+    max-height:220px;
+    max-width:141px;
+    border: 1px solid black;
+    margin-bottom:0;
+    padding-left:5px;
+}
+
+#input4 {
+    height:30px;
+    border: 1px solid black;
+    width:96px;
+    padding-left: 60px;
+    padding-right:90px;
+}
+
+.input4box {
+    position: relative;
+    width: 250px;
+}
+.input4 span {
+    float:right;
+}
+#input4img1 {
+    position:absolute;
+    bottom:8px;
+    left:10px;
+}
+#input4img2 {
+    position:absolute;
+    bottom:9px;
+    left:40px;
+}
+#input4img3 {
+    position:absolute;
+    bottom:8px;
+    right:65px;
+}
+#input4img4 {
+    width:50px;
+    position:absolute;
+    right:10px;
+    bottom:5px;
+}
+.inputHelpText {
+    font-size:12px;
+}
+form {
+    margin-bottom:20px;
+    line-height:16px;
+}
+
+.input5short{
+    width:66px;
+    height:24px;
+    float:left;
+    border:1px solid black;
+    padding-left:5px;
+    border-bottom:0;
+}
+.input5short:nth-child(even){
+    border-left: none;
+}
+.input5long{
+    border:1px solid black;
+    width:140px;
+    height:24px;
+    margin:0;
+    padding-left:5px;
+}
+.input5long:first-of-type{
+    border-bottom: none;
+}
+#input5, #input5 input:focus {
+    outline: none;
+}
+.floatRight {
+    float:right;
+}
+#input5{
+    width:149px;
+}
+
+#input6{
+    width:402px;
+}
+#input6editor{
+    background:white;
+    width:400px;
+    height:48px;
+    border:1px solid black;
+    vertical-align:middle;
+}
+#input6editor img{
+    display:inline-block;
+    vertical-align:middle;
+    padding: 16px 0 0 16px;
+}
+#input6textarea{
+    margin-top: 4px;
+    width:393px;
+    max-width: 393px;
+    max-height:500px;
+    height:128px;
+    padding-left:5px;
+}
+
+/* Link*/
+
+#link a:first-of-type{
+    font-size:18px;
+    line-height:18px;
+}
+#link a:last-of-type{
+    font-size:20px;
+    line-height:20px;
+}
+#link a:link:last-of-type, a:visited:last-of-type, a:hover:last-of-type, a:active:last-of-type {
+    color:#777777;
+    text-decoration: none;
+}
+#link img{
+    padding-left:4px;
+}
+
+/* Pagination*/
 

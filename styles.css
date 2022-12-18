@@ -660,4 +660,89 @@ hr, h1{
 }
 
 /* Tabs*/
+#tabs {
+    height:81px;
+    margin-bottom:10px;
+}
+.eachTab {
+    width:70px;
+    height:72px;
+    float:left;
+    text-align:center;
+    padding-top:8px;
+    border-bottom:1px solid rgb(163, 163, 163);
+}
+#tabs div:first-of-type {
+    border-bottom:2px solid black;
+    font-weight: bold;
+}
 
+#tabs2 {
+    height:81px;
+    margin-bottom:10px;
+}
+#tabs2 div:first-of-type {
+    border-bottom:2px solid black;
+    font-weight: bold;
+}
+.eachTab2 {
+    width:93px;
+    height:48px;
+    float:left;
+    text-align:center;
+    padding-top:8px;
+    border-bottom:1px solid rgb(163, 163, 163);
+}
+#tabs2 span {
+    padding-left:8px;
+    line-height:50px;
+}
+#tabs2 img {
+    vertical-align: middle;
+}
+
+#tabs3 {
+    width:98px;
+    height:280px;
+    margin-bottom:30px;
+}
+.eachTab3 {
+    width:93px;
+    height:48px;
+    float:left;
+    text-align:center;
+    padding-top:8px;
+    border-right:1px solid rgb(163, 163, 163);
+}
+#tabs3 div:first-of-type {
+    border-right:2px solid black;
+    font-weight: bold;
+}
+#tabs3 span {
+    padding-left:8px;
+    line-height:50px;
+}
+#tabs3 img {
+    vertical-align: middle;
+}
+
+#tabs4 {
+    width:66px;
+    height:400px;
+}
+.eachTab4 {
+    width:70px;
+    height:80px;
+    text-align:center;
+    border-right:1px solid rgb(163, 163, 163);
+}
+#tabs4 div:first-of-type {
+    border-right:2px solid black;
+    font-weight: bold;
+}
+#tabs4 span {
+    vertical-align:middle;
+}
+#tabs4 img {
+    padding-top:16px;
+}
